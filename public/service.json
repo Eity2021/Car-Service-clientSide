@@ -1,0 +1,74 @@
+[
+
+{
+    "id" : 1,
+    "name" : "Car Washing",
+    "description" : "200",
+    "img" : "https://i.ibb.co/rvL4qkB/car-wash-detailing-station-1.jpg"
+},
+
+{
+    "id" : 2,
+    "name" : "Electrical System",
+    "description" : "350",
+    "img" : "https://i.ibb.co/fpGp2L6/mechanic-servicing-car.jpg"
+},
+
+{
+    "id" : 3,
+    "name" : "Auto Car Repair",
+    "description" : "500",
+    "img" : "https://i.ibb.co/R7XqL09/car-mechanic-changing-wheels-car-1.jpg"
+},
+
+
+
+{
+    "id" : 4,
+    "name" : "Changing Wheels",
+    "description" : "150",
+    "img" : "https://i.ibb.co/Tbt3gTg/car-mechanic-changing-wheels-car.jpg"
+},
+{
+    "id" : 5,
+    "name" : "Engine Diagnostics",
+    "description" : "220",
+    "img" : "https://i.ibb.co/RTKqckb/auto-mechanic-checking-car-1.jpg"
+},
+{
+    "id" : 6,
+    "name" : "Car & Engine Clean",
+    "description" : "300",
+    "img" : "https://i.ibb.co/KDyrGpm/auto-mechanic-checking-car.jpg"
+},
+{
+    "id" : 7,
+    "name" : "Engine Repair",
+    "description" : "230",
+    "img" : "https://i.ibb.co/1nyx6mG/mechanic-hand-checking-fixing-broken-car-car-service-garage.jpg"
+},
+{
+    "id" : 8,
+    "name" : "Full Car Service",
+    "description" : "540",
+    "img" : "https://i.ibb.co/CWMpcCM/auto-mechanic-working-garage-repair-service.jpg"
+},
+{
+    "id" : 9,
+    "name" : "Engine Diagnostic",
+    "description" : "100",
+    "img" : "https://i.ibb.co/5h5WcCq/close-up-hands-unrecognizable-mechanic-doing-car-service-maintenance.jpg"
+},
+
+{
+    "id" : 10,
+    "name" : "Wheel Alignment",
+    "description" : "50",
+    "img" : "https://i.ibb.co/Qkp7Yhg/car-wash-detailing-station.jpg"
+}
+
+
+
+
+
+]
