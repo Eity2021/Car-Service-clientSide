@@ -28,6 +28,7 @@
   .services_area {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    padding: 0px 30px;
   }
 }
 
@@ -60,6 +61,7 @@
 }
 
 @media (max-width: 767px) {
+    
 }
 
 @media (max-width: 576px) {

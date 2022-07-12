@@ -1,10 +1,11 @@
 import React from 'react';
+import Experts from './Experts/Experts';
 
 
 const Home = () => {
     return (
-        <div>
-           <h1>this is home page</h1>
+        <div className='Home-padding'>
+           <Experts></Experts>
         </div>
     );
 };
