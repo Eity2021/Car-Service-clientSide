@@ -6,9 +6,7 @@
     "price" : 800,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
     "img" : "https://i.ibb.co/rvL4qkB/car-wash-detailing-station-1.jpg",
-    "expertName" : "Will John",
-    "expertDescription" : "Car maintenance includes changing the oil, rotating the tires, checking the fluids, and more. Timing and serpentine belts are often overlooked by car owners, however, these belts need to be replaced periodically.",
-    "expertImg" : "https://i.ibb.co/fSB6bsN/expert-1.jpg"
+   
 },
 
 {
@@ -17,9 +15,7 @@
     "price" : 350,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
     "img" : "https://i.ibb.co/fpGp2L6/mechanic-servicing-car.jpg",
-    "expertName" : "Chloe Miller",
-    "expertDescription" : "Car maintenance includes changing the oil, rotating the tires, checking the fluids, and more. Timing and serpentine belts are often overlooked by car owners, however, these belts need to be replaced periodically.",
-    "expertImg" : "https://i.ibb.co/xGrksqq/expert-2.jpg"
+   
 },
 
 {
@@ -28,9 +24,7 @@
     "price" : 790,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
     "img" : "https://i.ibb.co/R7XqL09/car-mechanic-changing-wheels-car-1.jpg",
-    "expertName" : "Jessica Smith",
-    "expertDescription" : "Car maintenance includes changing the oil, rotating the tires, checking the fluids, and more. Timing and serpentine belts are often overlooked by car owners, however, these belts need to be replaced periodically.",
-    "expertImg" : "https://i.ibb.co/TrFKQ0b/expert-3.jpg" 
+    
      
 },
 
@@ -42,9 +36,7 @@
     "price" : 150,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
     "img" : "https://i.ibb.co/Tbt3gTg/car-mechanic-changing-wheels-car.jpg",
-    "expertName" : "Emily Williams",
-    "expertDescription" : "Car maintenance includes changing the oil, rotating the tires, checking the fluids, and more. Timing and serpentine belts are often overlooked by car owners, however, these belts need to be replaced periodically.",
-    "expertImg" : "https://i.ibb.co/6YfXW2V/expert-4.jpg"
+    
 },
 {
     "id" : 5,
@@ -52,9 +44,7 @@
     "price" : 220,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
     "img" : "https://i.ibb.co/RTKqckb/auto-mechanic-checking-car-1.jpg",
-    "expertName" : "Olivia Garcia",
-    "expertDescription" : "Car maintenance includes changing the oil, rotating the tires, checking the fluids, and more. Timing and serpentine belts are often overlooked by car owners, however, these belts need to be replaced periodically.",
-    "expertImg" : "https://i.ibb.co/PFxjVrS/expert-5.jpg"
+    
 },
 {
     "id" : 6,
@@ -62,9 +52,7 @@
     "price" : 300,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
     "img" : "https://i.ibb.co/KDyrGpm/auto-mechanic-checking-car.jpg",
-    "expertName" : "Mia Johnson",
-    "expertDescription" : "Car maintenance includes changing the oil, rotating the tires, checking the fluids, and more. Timing and serpentine belts are often overlooked by car owners, however, these belts need to be replaced periodically.",
-    "expertImg" : "https://i.ibb.co/7jbZZcY/expert-6.png"
+   
 },
 {
     "id" : 7,

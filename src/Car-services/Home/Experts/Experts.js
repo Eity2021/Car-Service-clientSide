@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Expert from '../Expert/Expert';
 import useServices from './../../useServices/useServices';
 
 const Experts = () => {
 
-    const [experts,setExpert] = useServices({})
+    const [experts,setExpert] = useState([]);
+
+    useEffect(() => {
+        fetch('expert.json')
+        .then(res => res.json())
+        .then(data => setExpert(data))
+    },[])
 
     return (
         <div>

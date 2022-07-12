@@ -1,3 +1,39 @@
 [
-    
+    {
+        "id" : 1,
+        "expertName" : "Will John",
+        "expertDescription" : "Car maintenance includes changing the oil, rotating the tires, checking the fluids, and more. Timing and serpentine belts are often overlooked by car owners, however, these belts need to be replaced periodically.",
+        "expertImg" : "https://i.ibb.co/fSB6bsN/expert-1.jpg"
+    },
+    {   
+        "id" : 2,
+        "expertName" : "Chloe Miller",
+        "expertDescription" : "Car maintenance includes changing the oil, rotating the tires, checking the fluids, and more. Timing and serpentine belts are often overlooked by car owners, however, these belts need to be replaced periodically.",
+        "expertImg" : "https://i.ibb.co/xGrksqq/expert-2.jpg"
+    },
+    {
+        "id" : 3,
+        "expertName" : "Jessica Smith",
+        "expertDescription" : "Car maintenance includes changing the oil, rotating the tires, checking the fluids, and more. Timing and serpentine belts are often overlooked by car owners, however, these belts need to be replaced periodically.",
+        "expertImg" : "https://i.ibb.co/TrFKQ0b/expert-3.jpg"
+    },
+    {
+        "id" : 4,
+    "expertName" : "Emily Williams",
+    "expertDescription" : "Car maintenance includes changing the oil, rotating the tires, checking the fluids, and more. Timing and serpentine belts are often overlooked by car owners, however, these belts need to be replaced periodically.",
+    "expertImg" : "https://i.ibb.co/6YfXW2V/expert-4.jpg"
+    },
+
+    {
+        "id" : 5,
+        "expertName" : "Olivia Garcia",
+        "expertDescription" : "Car maintenance includes changing the oil, rotating the tires, checking the fluids, and more. Timing and serpentine belts are often overlooked by car owners, however, these belts need to be replaced periodically.",
+        "expertImg" : "https://i.ibb.co/PFxjVrS/expert-5.jpg"
+    },
+    { 
+        "id" : 6,
+        "expertName" : "Mia Johnson",
+        "expertDescription" : "Car maintenance includes changing the oil, rotating the tires, checking the fluids, and more. Timing and serpentine belts are often overlooked by car owners, however, these belts need to be replaced periodically.",
+        "expertImg" : "https://i.ibb.co/7jbZZcY/expert-6.png"
+    }
 ]
