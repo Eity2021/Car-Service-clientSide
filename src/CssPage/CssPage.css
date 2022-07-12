@@ -1,0 +1,110 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+/************************************  Service start ************************************/
+
+.services_area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 0px 60px;
+}
+
+/************************************  Service end ************************************/
+
+/************************************ show Service start ************************************/
+/* .info_container{
+  background: #000;
+  position: relative;
+  width: 100%;
+ z-index: 10;
+} */
+.service-img {
+
+  position: relative;
+  width: 100%;
+  
+}
+.service-img img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 10px 10px;
+
+}
+.abc{
+  position: absolute;
+  top: 0px;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height:200px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: 0.5s;
+  
+}
+
+.abc:hover{
+ opacity: 1;
+
+} 
+.service {
+  padding: 0px 0px 50px 0px;
+  border-radius: 10px;
+  text-align: center;
+  background: #383838;
+  color: #fff;
+}
+.service:hover{
+z-index : 1;
+transform:scale(1.15);
+box-shadow: 0 25px 40px rgba(109, 109, 109, 0.8);
+}
+.service-info {
+  text-align: center;
+  padding: 0px 8px 0px 8px;
+}
+.service-info  .info_name{
+  padding: 10px 0px;
+  font-size: 17px;
+}
+.service-info  .info_des{
+  font-size: 13px;
+}
+.service-info  .info_price{
+  font-size: 13px;
+  padding: 8px 0px;
+}
+.price{
+  color:#FFC513;
+  font-weight: 500;
+}
+.service-button {
+  display: flex;
+  justify-content: center;
+  
+}
+.service-button button {
+  margin: 80px 0px 0px 0px;
+  width: 180px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  background: #FFC513;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+/************************************ show Service end ************************************/
