@@ -1,17 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../images/logo.png";
 
 const Header = () => {
   return (
-    <div>
-      <div>
-        <Link to="/">logo</Link>
+    <div className="header_area">
+      <div className="header_logo">
+        <Link to="/">
+          <img src={logo} alt="" />
+        </Link>
       </div>
-      <div>
+      <div className="header_link">
 
-        <Link to="/">Home</Link>
-        <Link to="about">About</Link>
-        <Link to="service">Service</Link>
+        <Link className="link" to="/">Home</Link>
+        <Link className="link" to="about">About</Link>
+        <Link className="link" to="service">Service</Link>
       </div>
     </div>
   );

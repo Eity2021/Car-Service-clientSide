@@ -1,0 +1,86 @@
+/************************************  Service start ************************************/
+
+.services_area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 0px 60px;
+}
+
+@media (max-width: 1199px) {
+  .services_area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+  .services_area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .services_area {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 320px) {
+}
+
+/************************************  Service end ************************************/
+
+/************************************ show Service start ************************************/
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+  .service-button {
+    display: flex;
+    justify-content: center;
+  }
+  .service-button button {
+    margin: 80px 0px 0px 0px;
+    width: 140px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    background: #ffc513;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 576px) {
+  .service-button {
+    display: flex;
+    justify-content: center;
+  }
+  .service-button button {
+    margin: 80px 0px 0px 0px;
+    width: 160px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    background: #ffc513;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 320px) {
+}
+
+/************************************ show Service end ************************************/

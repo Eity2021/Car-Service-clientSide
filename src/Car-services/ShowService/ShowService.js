@@ -1,5 +1,6 @@
 import React from "react";
 import "../../CssPage/CssPage.css";
+import "../../CssPage/Responsive.css"
 const ShowService = ({ service }) => {
   const { name, description, img, price, detailsInfo } = service;
   return (
@@ -7,7 +8,7 @@ const ShowService = ({ service }) => {
       <div className="service">
         <div className="service-img">
           <img src={img} alt="" />
-          <div className="abc">
+          <div className="service-container">
             <div className="service-button">
               <button>Book Now</button>
             </div>
