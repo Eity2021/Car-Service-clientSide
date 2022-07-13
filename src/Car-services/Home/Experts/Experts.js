@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Expert from '../Expert/Expert';
-import useServices from './../../useServices/useServices';
 
 const Experts = () => {
 
@@ -15,7 +14,7 @@ const Experts = () => {
     return (
         <div>
             <div>
-                <h1 className='text-center'>Our Experts</h1>
+                <h1 className="heading">Our Experts</h1>
             </div>
            <div className='experts_area'>
            

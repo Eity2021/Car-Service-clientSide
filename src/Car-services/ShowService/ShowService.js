@@ -2,7 +2,7 @@ import React from "react";
 import "../../CssPage/CssPage.css";
 import "../../CssPage/Responsive.css"
 const ShowService = ({ service }) => {
-  const { name, description, img, price, detailsInfo } = service;
+  const { name, description, img, price } = service;
   return (
     <div className="info_container">
       <div className="service">

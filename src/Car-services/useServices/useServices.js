@@ -7,7 +7,7 @@ const useServices = () => {
     useEffect(() => {
         fetch('service.json')
         .then(res => res.json())
-        .then(data => setServices(data))
+        .then(data =>setServices(data))
     },[])
     return [services,setServices];
 };

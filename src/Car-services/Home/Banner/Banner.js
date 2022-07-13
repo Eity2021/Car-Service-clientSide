@@ -1,0 +1,54 @@
+import React, { useState } from 'react';
+import {Carousel} from 'react-bootstrap';
+import banner1 from "../../images/banner/banner1.jpg";
+import banner2 from "../../images/banner/banner2.jpg";
+import banner3 from "../../images/banner/banner3.jpg";
+const Banner = () => {
+
+    const [index, setIndex] = useState(0);
+
+    const handleSelect = (selectedIndex, e) => {
+      setIndex(selectedIndex);
+    };
+    return (
+        <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item>
+        <img
+          className="d-block w-100 img"
+          src={banner1}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3 className='carousel_heading'>Auto Maintenance and Repairs </h3>
+          <p>Financing Available | Warranties Available </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100 img"
+          src={banner2}
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Break Services </h3>
+          <p>Financing Available | Warranties Available </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100 img"
+          src={banner3}
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Auto Air Conditioning </h3>
+          <p>Financing Available | Warranties Available </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+    );
+};
+
+export default Banner;

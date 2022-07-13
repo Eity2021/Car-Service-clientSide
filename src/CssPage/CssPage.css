@@ -15,9 +15,7 @@ h6 {
   margin: 0px;
 }
 /************************************  home start ************************************/
-.Home-padding{
-  margin: 30px 60px;
-}
+
 /************************************  home end ************************************/
 /************************************  header start ************************************/
 
@@ -40,9 +38,8 @@ h6 {
   text-decoration: none;
   font-weight: 600;
 }
-.header_area .header_link .link:hover{
+.header_area .header_link .link:hover {
   color: #ffc513;
- 
 }
 /************************************  header end ************************************/
 
@@ -54,10 +51,10 @@ h6 {
   gap: 10px;
   padding: 0px 60px;
 }
-.service_header{
+.heading {
   text-align: center;
   margin: 30px 0px 30px 0px;
-  font-weight:bold;
+  font-weight: bold;
   color: #333;
 }
 /************************************  Service end ************************************/
@@ -97,7 +94,7 @@ h6 {
 .service:hover {
   transform: scale(1.15);
   box-shadow: 0 25px 40px rgba(109, 109, 109, 0.8);
-  animation-delay: .3s;
+  animation-delay: 0.3s;
 }
 .service-info {
   text-align: center;
@@ -136,31 +133,188 @@ h6 {
 
 /************************************ show Service end ************************************/
 
-
 /************************************ experts start ************************************/
-.experts_area{
+.experts_area {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
 
-.expert-img img{
- width: 100%;
+.expert-img img {
+  width: 100%;
 }
-
-
-
-
 
 /************************************ experts end ************************************/
 
 /************************************ expert start ************************************/
 
-
-
-.expert{
-  border: 1px solid#7b7a7a;
+.expert {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: 0px 0px 0px 0px;
+  border-radius: 8px;
+}
+.expert-info {
+  text-align: center;
+  padding: 0px 30px;
+}
+
+.expert-info .expertName {
+  font-size: 17px;
+  padding: 18px 0px 8px 0px;
+  font-weight: bold;
+  color: #383838;
+}
+
+.expert-info .expertDes {
+  font-size: 14px;
+  color: #7b7a7a;
+  padding: 0px 0px 20px 0px;
 }
 
 /************************************ expert end ************************************/
+
+/************************************ banner start ************************************/
+
+.img {
+  height: 580px;
+}
+
+/************************************ banner end ************************************/
+
+/************************************ login start ************************************/
+
+.login_area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 60px 90px 60px 90px;
+}
+.login-img img {
+  width: 100%;
+  height: 580px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.login-info {
+  background: #383838;
+  text-align: center;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.user-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin: 50px 0px 20px 0px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 385px;
+}
+.input-control {
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: #f3f3f3;
+}
+.input-control:focus {
+  background: none;
+  color: #f3f3f3;
+}
+.button {
+  width: 385px;
+  background: #fff;
+  color: #ffc513;
+  border: none;
+  margin: 30px 0px 20px 0px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.button :hover {
+  color: #fff;
+  background: #ffc513;
+  border-color: none;
+}
+.btn-primary:hover {
+  color: #fff;
+  background: #ffc513;
+  border-color: none;
+}
+.forget {
+  color: #fff;
+  text-align: right;
+}
+
+.forget .password {
+  font-weight: 400;
+  font-size: 12px;
+  background: none;
+  border: none;
+  margin: -27px 0px 0px 0px;
+}
+
+.form-control:focus {
+  color: none;
+  background-color: none;
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.account {
+  color: #fff;
+  font-size: 12px;
+}
+.user-join {
+  color: #ffc513;
+  font-size: 12px;
+  font-weight: 600;
+}
+.user-join:hover {
+  color: #ffc513;
+}
+
+.icons-list {
+  margin: 40px 0px 0px 0px;
+}
+.icon-text {
+  color: #ffc513;
+  font-size: 12px;
+  padding: 0px 5px 10px 0px;
+}
+
+.icons-list .direct-link {
+  font-size: 15px;
+  color: #fff;
+  padding: 0px 6px 0px 0px;
+  text-align: center;
+  border: 1px solid #ffc513;
+  background: none;
+  height: 34px;
+  width: 100px;
+  margin: 0px 5px 0px 0px;
+  cursor: pointer;
+}
+.icons-list .direct-link:hover{
+  color: #ffc513;
+  background: #fff;
+  border: none;
+  transition: .3s;
+  height: 40px;
+  width: 110px;
+  font-weight: bold;
+}
+/************************************ login end ************************************/
+
+/************************************ registration start ************************************/
+
+/************************************ registration end ************************************/
