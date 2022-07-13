@@ -304,6 +304,10 @@ h6 {
   margin: 0px 5px 0px 0px;
   cursor: pointer;
 }
+.btn-primary:focus{
+  outline:0;
+ 
+}
 .icons-list .direct-link:hover{
   color: #ffc513;
   background: #fff;
@@ -316,5 +320,21 @@ h6 {
 /************************************ login end ************************************/
 
 /************************************ registration start ************************************/
+.SignUp_area{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 60px 90px 60px 90px;
+}
 
+.SignUp-img img{
+  width: 100%;
+  height: 580px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.signUp-info{
+  background: #383838;
+  text-align: center;
+  border-radius: 0px 10px 10px 0px;
+}
 /************************************ registration end ************************************/
