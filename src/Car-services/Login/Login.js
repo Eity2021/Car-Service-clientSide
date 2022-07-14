@@ -3,7 +3,8 @@ import { Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import login from "../images/log.jpg";
 import Button from 'react-bootstrap/Button';
-
+import "../../CssPage/CssPage.css";
+import "../../CssPage/Responsive.css"
 
 const Login = () => {
   return (
