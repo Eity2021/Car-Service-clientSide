@@ -86,3 +86,140 @@
 }
 
 /************************************ show Service end ************************************/
+
+
+
+/************************************ experts start ************************************/
+
+
+@media (max-width:1199px) {
+  .experts_area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width:991px) {
+ 
+}
+
+
+@media (max-width:767px) {
+  .experts_area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+}
+
+@media (max-width:576px) {
+  .experts_area{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+}
+
+@media (max-width:320px) {
+ 
+}
+
+/************************************ experts end ************************************/
+
+
+
+/************************************ login start ************************************/
+
+
+
+@media (max-width:1199px) {
+    
+}
+
+@media (max-width:991px) {
+
+  .header_area {
+    padding: 24px 60px 52px 60px;
+}
+
+  .header_link{
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+    width: 30%;
+    left: 0;
+    background: #383838;
+    height: 100vh;
+    
+  }
+
+  .header-linkup{
+    display: grid;
+    justify-content: left;
+    padding: 55px 0px 0px 25px;
+    text-align: left;
+    position: relative;
+  }
+  .header_area .header_link .link {
+    padding: 0px 0px 25px 25px;
+    
+}
+  .up {
+    margin-left: 0px;
+    transition: 0.5s;
+
+  }
+
+  .down {
+    margin-left: -400px;
+    transition: 0.5s;
+  }
+
+
+  .fabars{
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 27px;
+    color: #fff;
+    font-size: 25px;
+
+  }
+  .faxmark{
+    display: block;
+    position:absolute;
+    top: 10px;
+    color: #fff;
+    font-size: 25px;
+    left: 206px;
+  }
+
+  
+}
+
+
+@media (max-width:767px) {
+  .header_link{
+    width: 35%;
+  }
+  .faxmark{
+    left: 176px;
+  }
+}
+
+@media (max-width:576px) {
+  .header_link{
+    width: 45%;
+  }
+  .faxmark{
+    left: 138px;
+  }
+}
+
+@media (max-width:320px) {
+ 
+}
+
+
+/************************************ login end ************************************/
