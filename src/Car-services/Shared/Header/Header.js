@@ -17,7 +17,7 @@ const Header = () => {
             <img src={logo} alt="" />
           </Link>
         </div>
-        <div className="color">
+        
           <div className={`header_link ${open ? "up" : "down"}`}>
             <div className="header-linkup">
               <Link className="link" to="/">
@@ -38,7 +38,6 @@ const Header = () => {
                   icon={faXmark}
                 ></FontAwesomeIcon>
               </div>
-            </div>
           </div>
         </div>
       </div>

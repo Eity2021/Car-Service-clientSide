@@ -136,6 +136,26 @@ a {
 
 /************************************ show Service end ************************************/
 
+/************************************ Home Service start ************************************/
+.HomeServiceButton{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.serviceButton{
+  height: 40px;
+    width: 160px;
+    border-radius: 6px;
+    background: #383838; 
+    /* background: #ffc513; */
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+    color: #fff;
+}
+/************************************ Home Service end ************************************/
+
+
 /************************************ experts start ************************************/
 .experts_area {
   display: grid;
@@ -146,6 +166,7 @@ a {
 
 .expert-img img {
   width: 100%;
+  border-radius: 8px;
 }
 
 /************************************ experts end ************************************/
