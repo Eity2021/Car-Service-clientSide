@@ -1,13 +1,14 @@
 import React from "react";
-import HomeService from "../HomeService/HomeService";
 import useServices from "./../../useServices/useServices";
 import "../../../CssPage/CssPage.css";
 import "../../../CssPage/Responsive.css";
-import { Link } from 'react-router-dom';
+import ShowService from "../../ShowService/ShowService";
+import { Link } from "react-router-dom";
 
 
 const HomeServices = () => {
   const [services] = useServices([]);
+ 
   return (
     <div>
       <div>
@@ -15,7 +16,7 @@ const HomeServices = () => {
       </div>
       <div className="services_area">
         {services.slice(0,4).map((service) => (
-          <HomeService key={service.id} service={service}></HomeService>
+          <ShowService key={service.id} service={service}  ></ShowService>
         ))}
       </div>
      <div className="HomeServiceButton">

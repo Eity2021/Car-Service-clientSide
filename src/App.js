@@ -6,6 +6,7 @@ import Services from "./Car-services/Services/Services";
 import Header from "./Car-services/Shared/Header/Header";
 import Login from "./Car-services/Login/Login";
 import Registration from "./Car-services/Registration/Registration";
+import ServiceDetailsPage from "./Car-services/ServiceDetailsPage/ServiceDetailsPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Services />} />
+        <Route path="/service/:serviceId" element={<ServiceDetailsPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/registration" element={<Registration />} />
       </Routes>

@@ -1,8 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../../CssPage/CssPage.css";
 import "../../CssPage/Responsive.css"
-const ShowService = ({ service }) => {
-  const { name, description, img, price } = service;
+const ShowService = ({service}) => {
+  const { id,name, description, img, price } = service;
+  
+   const navigate = useNavigate();
+   const handleServiceButton = (id) =>{
+    navigate(`/service/${id}`)
+   }
   return (
     <div className="info_container">
       <div className="service">
@@ -10,7 +16,7 @@ const ShowService = ({ service }) => {
           <img src={img} alt="" />
           <div className="service-container">
             <div className="service-button">
-              <button>Book Now</button>
+              <button  onClick={() => handleServiceButton(id) }>Book Now</button>
             </div>
           </div>
         </div>
