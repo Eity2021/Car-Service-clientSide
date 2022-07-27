@@ -94,11 +94,11 @@ a {
   background: #383838;
   color: #fff;
 }
-.service:hover {
+/* .service:hover {
   transform: scale(1.15);
   box-shadow: 0 25px 40px rgba(109, 109, 109, 0.8);
   animation-delay: 0.3s;
-}
+} */
 .service-info {
   text-align: center;
   padding: 0px 8px 0px 8px;

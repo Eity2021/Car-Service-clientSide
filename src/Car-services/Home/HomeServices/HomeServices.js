@@ -10,13 +10,13 @@ const HomeServices = () => {
   const [services] = useServices([]);
  
   return (
-    <div>
+    <div >
       <div>
         <h1  className="heading">Our Services</h1>
       </div>
       <div className="services_area">
         {services.slice(0,4).map((service) => (
-          <ShowService key={service.id} service={service}  ></ShowService>
+          <ShowService key={service._id} service={service}  ></ShowService>
         ))}
       </div>
      <div className="HomeServiceButton">
