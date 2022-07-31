@@ -8,7 +8,7 @@ const Services = () => {
   const [services] = useServices({});
 
   return (
-    <div >
+    <div>
       <h1 className="heading">Our Services</h1>
       <div className="services_area">
         {services.map((service) => (
