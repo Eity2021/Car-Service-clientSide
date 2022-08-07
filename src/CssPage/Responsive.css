@@ -154,12 +154,18 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   }
 
-  .header-linkup{
+  .link-down{
     display: grid;
     justify-content: left;
     padding: 55px 0px 0px 25px;
     text-align: left;
     position: relative;
+  }
+
+  .dropdown-border{
+   position: absolute;
+   top: 220px;
+   right: 80px;
   }
   .header_area .header_link .link {
     padding: 0px 0px 25px 25px;

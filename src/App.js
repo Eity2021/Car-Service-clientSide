@@ -11,14 +11,20 @@ import AddServices from "./Car-services/AddServices/AddServices";
 import NotFoundPage from "./Car-services/NotFoundPage/NotFoundPage";
 import AddCarsInfo from "./Car-services/AddCarsInfo/AddCarsInfo";
 import ManageItems from "./Car-services/ManageItems/ManageItems";
+import RequireAuth from "./Car-services/RequireAuth/RequireAuth";
+import { Dropdown } from "bootstrap";
+
+
 
 function App() {
   return (
     <div>
+      
       <Header></Header>
+  
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<RequireAuth><About /></RequireAuth>} />
         <Route path="/service" element={<Services />} />
         <Route path="/addServices" element={<AddServices />} />
         <Route path="/service/:serviceId" element={<ServiceDetailsPage />} />
@@ -28,6 +34,7 @@ function App() {
         <Route path="/manageItems" element={<ManageItems />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
+      
     </div>
   );
 }

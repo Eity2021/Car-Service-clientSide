@@ -5,11 +5,11 @@ const AddServices = () => {
   const {
     register,
     handleSubmit,
-    watch,
+    //watch,
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-    console.log(data);
+    //console.log(data);
     const url = "http://localhost:8000/cars";
     fetch(url, {
       method: "POST",

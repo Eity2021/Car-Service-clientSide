@@ -1,31 +1,25 @@
 import React from "react";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
-
-const ShowManageItems = ({ service,setServices,services }) => {
+const ShowManageItems = ({ service, setServices, services }) => {
   const { _id, name, description, img, price } = service;
-  toast('Delete confirm');
 
   const manageDeleteHandle = (id) => {
-    console.log(id);
-     const confirm = window.confirm("Are you sure");
+    const confirm = window.confirm("Are you sure");
 
-    if(confirm){
-       
-      const  url = `http://localhost:8000/cars/${id}`;
-      fetch(url , {
-        method : "DELETE",
+    if (confirm) {
+      const url = `http://localhost:8000/cars/${id}`;
+      fetch(url, {
+        method: "DELETE",
       })
-      .then(res => res.json())
-      .then(data => {
-        console.log(data)
-        const remain = services.filter(service => service._id !== id);
-        setServices(remain); 
-       alert('Delete Confirm')
-      })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          const remain = services.filter((service) => service._id !== id);
+          setServices(remain);
+          alert("Delete Confirm");
+        });
     }
-  }
+  };
   return (
     <div>
       <div className="info_container">
@@ -36,9 +30,13 @@ const ShowManageItems = ({ service,setServices,services }) => {
               <div className="service-button">
                 <button>Book Now</button>
               </div>
-             
             </div>
-            <button className="Manage_delete" onClick={() => manageDeleteHandle(_id)}>X</button>
+            <button
+              className="Manage_delete"
+              onClick={() => manageDeleteHandle(_id)}
+            >
+              X
+            </button>
           </div>
           <div className="service-info">
             <h3 className="info_name">{name}</h3>

@@ -19,7 +19,7 @@ const Experts = () => {
            <div className='experts_area'>
            
             {
-                experts.map(expert => <Expert key={expert.id} expert={expert}></Expert>)
+                experts.map(expert => <Expert key={expert._id} expert={expert}></Expert>)
             }
            
            </div>

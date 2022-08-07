@@ -23,11 +23,12 @@ a {
 .header_area {
   display: flex;
   justify-content: space-between;
-  padding: 24px 60px 24px 60px;
+  padding: 10px 60px 10px 60px;
   background: #383838;
 }
 .header_logo {
   position: absolute;
+  top: 18px;
 }
 .header_logo img {
   width: 100px;
@@ -40,9 +41,13 @@ a {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
+  
 }
 .header_area .header_link .link:hover {
   color: #ffc513;
+}
+.link-down{
+  margin: 10px 24px 0px 0px;
 }
 /************************************  header end ************************************/
 
@@ -330,6 +335,8 @@ a {
   margin: 0px 5px 0px 0px;
   cursor: pointer;
 }
+
+
 .btn-primary:focus {
   outline: 0;
 }
@@ -342,7 +349,20 @@ a {
   width: 110px;
   font-weight: bold;
 }
-
+.SignOutLink{
+  font-size: 16px;
+  color: #fff;
+  background: none;
+  height: 34px;
+  width: 100px;
+  border: none;
+  font-weight: 600;
+  text-align: left;
+}
+.SignOutLink:hover{
+  color: #ffc513;
+  font-weight: 600;
+}
 .faxmark {
   display: none;
 }
@@ -402,3 +422,53 @@ input {
 }
 
 /************************************  ManageItems end ************************************/
+/************************************  Dropdown start************************************/
+
+.dropdown-border{
+  border: none;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background: none;
+}
+.dropdown-img{
+  height:45px;
+  width:45px;
+  border-radius: 50%;
+  margin: -6px 0px 0px -13px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 8px 0px 0px 0px;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background: #383838;
+  background-clip: padding-box;
+  border: 1pxsolidrgba(0,0,0,.15);
+  border-radius: 0.25rem;
+}
+.header-linkup {
+  display: flex;
+}
+.linkUp{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.dropdown-toggle::after{
+  display: none;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #1e2125;
+  background-color: #ffc513;; 
+}
+/************************************  Dropdown end************************************/
