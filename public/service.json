@@ -1,7 +1,7 @@
 [
 
 {
-    "id" : 1,
+    
     "name" : "Car Washing",
     "price" : 800,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
@@ -10,7 +10,7 @@
 },
 
 {
-    "id" : 2,
+    
     "name" : "Electrical System",
     "price" : 350,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
@@ -19,7 +19,7 @@
 },
 
 {
-    "id" : 3,
+    
     "name" : "Auto Car Repair",
     "price" : 790,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
@@ -31,7 +31,7 @@
 
 
 {
-    "id" : 4,
+    
     "name" : "Changing Wheels",
     "price" : 150,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
@@ -39,7 +39,7 @@
     
 },
 {
-    "id" : 5,
+    
     "name" : "Engine Diagnostics",
     "price" : 220,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
@@ -47,7 +47,7 @@
     
 },
 {
-    "id" : 6,
+   
     "name" : "Car & Engine Clean",
     "price" : 300,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
@@ -55,21 +55,21 @@
    
 },
 {
-    "id" : 7,
+   
     "name" : "Engine Repair",
     "price" : 230,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
     "img" : "https://i.ibb.co/1nyx6mG/mechanic-hand-checking-fixing-broken-car-car-service-garage.jpg"
 },
 {
-    "id" : 8,
+  
     "name" : "Full Car Service",
     "price" : 540,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
     "img" : "https://i.ibb.co/CWMpcCM/auto-mechanic-working-garage-repair-service.jpg"
 },
 {
-    "id" : 9,
+    
     "name" : "Engine Diagnostic",
     "price" : 100,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
@@ -78,26 +78,26 @@
 },
 
 {
-    "id" : 10,
+
     "name" : "Wheel Alignment",
     "price" : 50,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
     "img" : "https://i.ibb.co/Qkp7Yhg/car-wash-detailing-station.jpg"
 },
 {
-    "id" : 11,
+  
     "name" : "Oil Changing",
     "price" : 120,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
     "img" : "https://i.ibb.co/xCkxVQK/front-view-car-service-male-employee.jpg"
 },
 {
-    "id" : 12,
+    
     "name" : "Head light changing",
     "price" : 170,
     "description" : "Keeping up with the regular maintenance schedule can help by preventing costly repairs of the cooling system, transmission system, drivetrain and other components.",
     "img" : "https://i.ibb.co/gzYvH3S/car-service-employees-posing-with-tools.jpg"
-}
+},
 
 
 

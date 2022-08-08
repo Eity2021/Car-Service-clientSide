@@ -10,7 +10,7 @@ const AddCarsInfo = () => {
   } = useForm();
   const onSubmit = (event) => {
     console.log(event);
-    // const url = "http://localhost:8000/cars";
+    // const url = "http://localhost:7000/cars";
     // fetch(url, {
     //   method: "POST",
     //   headers: {
@@ -25,7 +25,7 @@ const AddCarsInfo = () => {
   };
   return (
     <div>
-      <form onSubmit={handleSubmit(onSubmit)} >
+      <form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <input type="file" {...register("img")} />
         </div>

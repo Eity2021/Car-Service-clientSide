@@ -7,7 +7,7 @@ const ShowManageItems = ({ service, setServices, services }) => {
     const confirm = window.confirm("Are you sure");
 
     if (confirm) {
-      const url = `http://localhost:8000/cars/${id}`;
+      const url = `http://localhost:7000/cars/${id}`;
       fetch(url, {
         method: "DELETE",
       })
@@ -33,8 +33,7 @@ const ShowManageItems = ({ service, setServices, services }) => {
             </div>
             <button
               className="Manage_delete"
-              onClick={() => manageDeleteHandle(_id)}
-            >
+              onClick={() => manageDeleteHandle(_id)}>
               X
             </button>
           </div>
@@ -44,6 +43,11 @@ const ShowManageItems = ({ service, setServices, services }) => {
             <p className="info_price">
               Price : <span className="price">${price}</span>
             </p>
+            <button
+              className="Manage_delete"
+              onClick={() => manageDeleteHandle(_id)}>
+              XButton
+            </button>
           </div>
         </div>
       </div>

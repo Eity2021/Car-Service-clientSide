@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import "../../CssPage/CssPage.css"
+import "../../CssPage/CssPage.css";
 const AddServices = () => {
   const {
     register,
@@ -10,7 +10,7 @@ const AddServices = () => {
   } = useForm();
   const onSubmit = (data) => {
     //console.log(data);
-    const url = "http://localhost:8000/cars";
+    const url = "http://localhost:7000/cars";
     fetch(url, {
       method: "POST",
       headers: {
@@ -29,19 +29,23 @@ const AddServices = () => {
       <form onSubmit={handleSubmit(onSubmit)} enctype="multipart/form-data">
         <div>
           <input
-            type="text"  placeholder="Enter Your Name"
+            type="text"
+            placeholder="Enter Your Name"
             {...register("name", { required: true, maxLength: 50 })}
           />
         </div>
         <div>
-          <input placeholder="Enter Description"  type="text" {...register("description")} />
+          <input
+            placeholder="Enter Description"
+            type="text"
+            {...register("description")}
+          />
         </div>
         <div>
-          <input  placeholder="Amount"  type="number" {...register("price")} />
+          <input placeholder="Amount" type="number" {...register("price")} />
         </div>
         <div>
           <input type="text" placeholder="Photo URL" {...register("img")} />
-    
         </div>
         <div>
           <input type="submit" value="Add service" />
