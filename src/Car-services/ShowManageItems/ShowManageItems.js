@@ -43,11 +43,7 @@ const ShowManageItems = ({ service, setServices, services }) => {
             <p className="info_price">
               Price : <span className="price">${price}</span>
             </p>
-            <button
-              className="Manage_delete"
-              onClick={() => manageDeleteHandle(_id)}>
-              XButton
-            </button>
+           
           </div>
         </div>
       </div>

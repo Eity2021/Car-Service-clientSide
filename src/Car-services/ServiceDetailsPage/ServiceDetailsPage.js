@@ -1,19 +1,27 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import React from "react";
+import { Link, useParams } from "react-router-dom";
+import useDetailsPage from "./../useDetailsPage/useDetailsPage";
 
 const ServiceDetailsPage = () => {
   const { serviceId } = useParams();
-  const [detailsCars, setDetailsCars] = useState([]);
-
-  useEffect(() => {
-    const url = `http://localhost:7000/cars/${serviceId}`;
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => setDetailsCars(data));
-  }, [serviceId]);
+  const [detailsCars] = useDetailsPage(serviceId);
+   
   return (
-    <div>
-      <h1>this is service page ID: {detailsCars.name}</h1>
+    <div className="details-page-area">
+      <div className="detailsPage-Img">
+        <img className="Img" src={detailsCars.img} alt="" />
+      </div>
+      <div className="details-page-info">
+        <h1 className="detailsName">{detailsCars.name}</h1>
+        <p className="detailsDes">{detailsCars.description}</p>
+        <p className="detailsPrice">Price : <span className="servicePrice">{detailsCars.price}$ </span></p>
+    
+        <div>
+          <Link to={`/makeAppointment/${serviceId}`}>
+            <button className="makeAppoint">Make Appointment</button>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };

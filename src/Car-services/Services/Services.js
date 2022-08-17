@@ -38,20 +38,18 @@ const Services = () => {
       <div className="pagination">
         
         {[...Array(pageCount).keys()].map((page) => (
-          <button className={pages === page+1 ? 'selected' : ""}
-          onClick={() => setPages(page + 1)}>{page + 1}</button>
+          <button className={pages === page ? 'selected' : ""}
+          onClick={() => setPages(page)}>{page + 1}</button>
         ))}
 
-        <select onChange={(event) => setSize(event.target.value)}>
+        {/* <select onChange={(event) => setSize(event.target.value)}>
           <option value="5">5</option>
-          <option value="10" selected>
-            10
-          </option>
+          <option value="10" selected>10</option>
           <option value="13">13</option>
           <option value="15">15</option>
           <option value="18">18</option>
           <option value="19">19</option>
-        </select>
+        </select> */}
       </div>
     </div>
   );

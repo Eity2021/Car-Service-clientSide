@@ -1,14 +1,15 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../../CssPage/CssPage.css";
-import "../../CssPage/Responsive.css"
-const ShowService = ({service}) => {
-  const { _id,name, description, img, price } = service;
+import "../../CssPage/Responsive.css";
+const ShowService = ({ service }) => {
+  const { _id, name, description, img, price,carName,slots } = service;
+  // console.log(carName);
   
-   const navigate = useNavigate();
-   const handleServiceButton = (id) =>{
-    navigate(`/service/${id}`)
-   }
+  const navigate = useNavigate();
+  const handleServiceButton = (id) => {
+    navigate(`/service/${id}`);
+  };
   return (
     <div className="info_container">
       <div className="service">
@@ -16,7 +17,7 @@ const ShowService = ({service}) => {
           <img src={img} alt="" />
           <div className="service-container">
             <div className="service-button">
-              <button  onClick={() => handleServiceButton(_id) }>Book Now</button>
+              <button onClick={() => handleServiceButton(_id)}>Book Now</button>
             </div>
           </div>
         </div>
@@ -26,6 +27,7 @@ const ShowService = ({service}) => {
           <p className="info_price">
             Price : <span className="price">${price}</span>
           </p>
+        
         </div>
       </div>
     </div>

@@ -333,3 +333,45 @@
 
 
 /************************************ signUp end ************************************/
+
+/************************************  make Appointment start************************************/
+
+
+@media (max-width:1199px) {
+    
+}
+
+@media (max-width:991px) {
+  
+}
+
+
+@media (max-width:767px) {
+  .form-input {
+    display: inline;
+    width: 100%;
+  }
+  .appoint {
+    padding: 0px 25px 0px 25px;
+}
+
+.day-month{
+  grid: none;
+}
+.selected{
+  margin: 10px 0px 0px 0px;
+}
+.datePicker{
+  margin: 0px 0px 0px 0px;
+}
+}
+
+@media (max-width:576px) {
+  
+}
+
+@media (max-width:320px) {
+ 
+}
+
+/************************************  make Appointment  end ************************************/

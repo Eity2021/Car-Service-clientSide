@@ -12,8 +12,10 @@ import NotFoundPage from "./Car-services/NotFoundPage/NotFoundPage";
 import AddCarsInfo from "./Car-services/AddCarsInfo/AddCarsInfo";
 import ManageItems from "./Car-services/ManageItems/ManageItems";
 import RequireAuth from "./Car-services/RequireAuth/RequireAuth";
-import { Dropdown } from "bootstrap";
 
+import MakeAppointment from "./Car-services/MakeAppointment/MakeAppointment";
+import { ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
@@ -28,13 +30,14 @@ function App() {
         <Route path="/service" element={<Services />} />
         <Route path="/addServices" element={<AddServices />} />
         <Route path="/service/:serviceId" element={<ServiceDetailsPage />} />
+        <Route path="/makeAppointment/:serviceId" element={<MakeAppointment />} />
         <Route path="/login" element={<Login />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/addInfo" element={<AddCarsInfo />} />
         <Route path="/manageItems" element={<ManageItems />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
-      
+      <ToastContainer />
     </div>
   );
 }
